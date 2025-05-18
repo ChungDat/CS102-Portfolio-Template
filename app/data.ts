@@ -27,7 +27,7 @@ type SocialLink = {
   link: string
 }
 
-export const EMAIL = ''
+export const EMAIL = 'fakeFriend@gmail.com'
 
 export const WEB_TITLE = 'Name - Personal Website'
 export const WEB_DESCRIPTION =
@@ -106,5 +106,9 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'GitHub',
     link: 'https://github.com/github',
+  },
+  {
+    label: 'Facebook',
+    link: 'https://facebook.com/',
   },
 ]
